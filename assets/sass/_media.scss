@@ -1,0 +1,160 @@
+@media (max-width: 450px) {
+  .title {
+    .greeting {
+      h1 {
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .timer {
+    .number {
+      font-size: 64px !important;
+    }
+  }
+
+  .price__new {
+    animation-duration: 0s !important;
+  }
+
+  .feedback {
+    .container {
+      flex-direction: column;
+    }
+
+    .feedback__content {
+      input {
+        font-size: 16px !important;
+      }
+      margin-bottom: 50px;
+    }
+
+    .feedback__img {
+      img {
+        width: 50%;
+      }
+    }
+  }
+
+  .description {
+    .container {
+      flex-direction: column;
+    }
+
+    .description__img {
+      img {
+        width: 100%;
+      }
+    }
+
+    .description__list {
+      flex-direction: column;
+      li {
+        margin-top: 20px;
+      }
+    }
+  }
+
+  .composition {
+    .container {
+      flex-direction: column;
+    }
+    .composition__left {
+      order: 1;
+    }
+    .composition__right {
+      order: 1;
+      margin-top: 50px;
+      margin-bottom: 50px;
+    }
+
+    .composition__middle {
+      order: 2;
+    }
+  }
+
+  .title {
+    .nav {
+      .container {
+        flex-direction: column;
+        .logo {
+          margin-bottom: 30px;
+        }
+        .feedback__btn_wrapper {
+          position: relative;
+          padding: 15px;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    .title__content {
+      flex-direction: column;
+
+      .greeting {
+        text-align: center;
+        font-size: 34px;
+      }
+
+      .greeting__img {
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 1060px) {
+  .title {
+    .greeting {
+      font-size: 24px;
+    }
+
+    .greeting__img {
+      img {
+        width: 65%;
+      }
+    }
+  }
+}
+
+@media (min-width: 623px) {
+  .container {
+    width: 576px;
+  }
+}
+
+@media (min-width: 1033px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1033px) {
+  .container {
+    width: 992px;
+  }
+}
+
+@media (min-width: 1234px) {
+  .container {
+    width: 1200px;
+  }
+}
+
+@media (min-width: 1418px) {
+  .container {
+    width: 1400px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 100%;
+  }
+}

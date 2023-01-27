@@ -452,7 +452,10 @@ input {
 }
 
 .description {
+  background: linear-gradient(to top, rgba(225, 225, 225, 0.5), #d2d6ff);
   margin-bottom: 150px;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 .description .container:first-child {
   display: flex;
@@ -489,7 +492,9 @@ input {
 }
 
 .composition {
-  margin-bottom: 150px;
+  background: linear-gradient(to top, #d2d6ff, rgba(225, 225, 225, 0.1));
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 .composition .container {
   display: flex;
@@ -540,7 +545,6 @@ input {
 .title {
   position: relative;
   min-height: 100vh;
-  margin-bottom: 150px;
 }
 .title .container {
   display: flex;
